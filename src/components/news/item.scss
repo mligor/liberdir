@@ -12,6 +12,20 @@
     padding: 0px 10px 10px 0px;
   }
 
+  @media screen and (max-width: 425px) {
+    .image {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .image {
+      float: left;
+      width: 120px;
+    }
+  }
+
   .title {
     font-weight: bold;
     padding-bottom: 5px;
